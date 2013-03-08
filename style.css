@@ -52,5 +52,10 @@ body {
 		vertical-align: middle;
 }
 	
-
+.container .slider li img{
+	width: 1235px;
+	height: 695px;
+	margin-left: 30px;
+	margin-bottom: 190px;
+}
 
