@@ -1,0 +1,56 @@
+html { -webkit-font-smoothing: antialiased; }
+body {
+	margin: 0; 
+   	font-weight: 300;
+	font-size: 8px ;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 403px;
+}
+
+.header #logo {
+	padding-left: 65px;
+}
+
+	 .inner_header {
+		margin: 0 20px 0 20px;
+}	 	
+	
+	ul.links {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		clear: both;
+		padding-top: 12px;
+		text-align: right;	
+	}	
+
+	li {
+		padding-bottom: 10px;
+	}
+
+ 	a {		
+		text-decoration: none;
+		font-family: "droid sans",helvetica,sans-serif;
+		font-size: 14px;
+		font-weight: regular;
+		letter-spacing: 0.6px;
+		color: rgba(167,157,157,0.18);
+		color: #a79d9d;
+		-webkit-transition: all 600ms ease-in-out;
+  		-moz-transition:    all 600ms ease-in-out;
+  		-ms-transition:     all 600ms ease-in-out;
+  		-o-transition:      all 600ms ease-in-out;
+  		transition:         all 600ms ease-in-out;
+}
+	
+	#email img, #share img {
+		padding-left: 10px;
+		vertical-align: middle;
+}
+	
+
+
