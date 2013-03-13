@@ -1,14 +1,10 @@
 html { -webkit-font-smoothing: antialiased; }
+
 body {
 	margin: 0; 
    	font-weight: 300;
-	font-size: 8px ;
-}
-
-.container {
-	position: absolute;
-	width: 100%;
-	height: 403px;
+	font-size: 8px;
+	background: url(images/background.png) repeat;
 }
 
 .header #logo {
@@ -17,45 +13,51 @@ body {
 
 	 .inner_header {
 		margin: 0 20px 0 20px;
-}	 	
-	
+}	
+
+	li #share {
+		padding-top: 3px;
+		float: right;
+		margin-right: 18px;
+	}
+
 	ul.links {
 		list-style-type: none;
 		display: inline-block;
 		float: right;
 		clear: both;
-		padding-top: 12px;
 		text-align: right;	
+		padding-top: 15px;
 	}	
-
-	li {
-		padding-bottom: 10px;
-	}
 
  	a {		
 		text-decoration: none;
 		font-family: "droid sans",helvetica,sans-serif;
 		font-size: 14px;
+		border: none;
 		font-weight: regular;
 		letter-spacing: 0.6px;
 		color: rgba(167,157,157,0.18);
 		color: #a79d9d;
-		-webkit-transition: all 600ms ease-in-out;
-  		-moz-transition:    all 600ms ease-in-out;
-  		-ms-transition:     all 600ms ease-in-out;
-  		-o-transition:      all 600ms ease-in-out;
-  		transition:         all 600ms ease-in-out;
 }
+
+	 a:hover {
+        color: #ba1a63;
+    }
+
+	li a {
+        display: block;
+        background-color: inherit;
+        color: #a79d9d;
+    }
 	
 	#email img, #share img {
 		padding-left: 10px;
 		vertical-align: middle;
+		bo
 }
-	
-.container .slider li img{
-	width: 1235px;
-	height: 695px;
-	margin-left: 30px;
-	margin-bottom: 190px;
+
+.slider ul li {
+	display: block;
 }
 

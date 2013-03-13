@@ -21,7 +21,7 @@
 		hideControlOnEnd: false,
 		speed: 500,
 		easing: null,
-		slideMargin: 0,
+		slideMargin: 10,
 		startSlide: 0,
 		randomStart: false,
 		captions: false,
