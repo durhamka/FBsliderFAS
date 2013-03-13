@@ -35,7 +35,7 @@
 		useCSS: true,
 		
 		// PAGER
-		pager: true,
+		pager: false,
 		pagerType: 'full',
 		pagerShortSeparator: ' / ',
 		pagerSelector: null,
