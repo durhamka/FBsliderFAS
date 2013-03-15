@@ -3,6 +3,6 @@ $(document).ready(function(){
         mode: 'horizontal',
         captions: false,
         auto: false,
-        autoControls: false
+        autoControls: false,
     });
   });

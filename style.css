@@ -16,7 +16,7 @@ body {
 }	
 
 .links li  {
-		padding-top: 10px;
+		padding-top: 6px;
 		float: right;
 		margin-right: 18px;
 		display: inline-block;
@@ -30,36 +30,27 @@ ul.links {
 		padding-top: 0px;
 }	
 
- a {		
+ a, #email img, #share img {		
 		text-decoration: none;
+		border: none;
+		vertical-align: middle;
 		font-family: "droid sans",helvetica,sans-serif;
 		font-size: 14px;
-		border: none;
-		font-weight: regular;
 		letter-spacing: 0.6px;
 		color: rgba(167,157,157,0.18);
 		color: #a79d9d;
+		padding-left: 13px;
+		opacity: .85;
 }
 
-a:hover {
+a:hover, #email img:hover, #share img:hover {
         color: #706666;
         color: rgba(112, 102, 102, 1);
+        opacity: 1;
 }
 
 li a {
         display: block;
         background-color: inherit;
         color: #a79d9d;
-}
 
-
-#email img, #share img {
-		padding-left: 13px;
-		vertical-align: middle;
-		border: none;
-		opacity: .45;
-}
-
-#email img:hover, #share img:hover {
-		opacity: 1;
-}
