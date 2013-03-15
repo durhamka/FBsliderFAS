@@ -14,7 +14,7 @@
 ===================================*/
 .bx-wrapper {
 	position: relative;
-	margin: 30px 85px 60px 85px;
+	margin: 10px 85px 35px 85px;
 	padding: 0;
 	*zoom: 1;
 }
@@ -26,16 +26,16 @@
 /** THEME
 ===================================*/
 
-.bx-wrapper .bx-pager,
+/* .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
 	bottom: -30px;
 	width: 100%;
-}
+} */
 
 /* LOADER */
 
-.bx-wrapper .bx-loading {
+/* .bx-wrapper .bx-loading {
 	min-height: 50px;
 	background: url(images/bx_loader.gif) center no-repeat #fff;
 	height: 100%;
@@ -44,37 +44,31 @@
 	top: 0;
 	left: 0;
 	z-index: 2000;
-}
+} */
 
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 45px;
+	left: -50px;
 	background: url(images/arrows.png) no-repeat -9px -5px;
 	opacity: 1;
-	-webkit-transition: opacity 0.5s;
-	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
-}
+	}
 
 .bx-wrapper .bx-next {
-	right: 45px;
+	right: -50px;
 	margin-bottom: 200px;
 	background: url(images/arrows.png) no-repeat -46px -5px;
 	opacity: 1;
-	-webkit-transition: opacity 0.5s;
-	-moz-transition:    opacity 0.5s;
-	-o-transition:      opacity 0.5s;
 }
 
 .bx-wrapper .bx-prev:hover {
-	background-position: -8.95 -43;
+	background-position: -8.95px -43px;
 	opacity: 1;
 }
 
 .bx-wrapper .bx-next:hover {
-	background-position: -45 -43;
+	background-position: -45px -43px;
 	opacity: 1;
 }
 
@@ -89,9 +83,8 @@
 	z-index: 9999;
 }
 
-.bx-wrapper .bx-controls-direction a.disabled {
+/* .bx-wrapper .bx-controls-direction a.disabled {
 	display: none;
-}
-
+} */
 
 

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".bxslider").bxSlider({mode:"horizontal",captions:!1,auto:!1,autoControls:!1})});

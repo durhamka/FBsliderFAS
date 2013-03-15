@@ -2,7 +2,7 @@ html { -webkit-font-smoothing: antialiased; }
 
 body {
 	margin: 0; 
-   	font-weight: 300;
+   	font-weight: 300;
 	font-size: 8px;
 	background: url(images/background.png) repeat;
 }
@@ -15,22 +15,22 @@ body {
 		margin: 0 20px 0 20px;
 }	
 
-	li  {
+.links li  {
 		padding-top: 10px;
 		float: right;
 		margin-right: 18px;
 		display: inline-block;
 		clear: both;
-	}
+}
 
-	ul.links {
+ul.links {
 		list-style-type: none;
 		float: right;
 		text-align: right;	
-		padding-top: 8px;
-	}	
+		padding-top: 0px;
+}	
 
- 	a {		
+ a {		
 		text-decoration: none;
 		font-family: "droid sans",helvetica,sans-serif;
 		font-size: 14px;
@@ -41,28 +41,25 @@ body {
 		color: #a79d9d;
 }
 
-	 a:hover {
+a:hover {
         color: #706666;
-        color: rgba(112, 102, 102);
-    }
+        color: rgba(112, 102, 102, 1);
+}
 
-	li a {
+li a {
         display: block;
         background-color: inherit;
         color: #a79d9d;
-    }
-	
-	#email img, #share img {
+}
+
+
+#email img, #share img {
 		padding-left: 13px;
 		vertical-align: middle;
 		border: none;
 		opacity: .45;
 }
-	#email img:hover, #share img:hover {
+
+#email img:hover, #share img:hover {
 		opacity: 1;
 }
-
-.slider ul li {
-	display: block;
-}
-
