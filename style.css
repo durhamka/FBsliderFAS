@@ -13,6 +13,14 @@ body {
 
 	 .inner_header {
 		margin: 0 20px 0 20px;
+}
+
+.bxslider img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
 }	
 
 .links li  {
@@ -40,13 +48,13 @@ ul.links {
 		color: rgba(167,157,157,0.18);
 		color: #a79d9d;
 		padding-left: 13px;
-		opacity: .85;
+		opacity: .9;
 }
 
 a:hover, #email img:hover, #share img:hover {
         color: #706666;
         color: rgba(112, 102, 102, 1);
-        opacity: 1;
+        opacity: 1.8;
 }
 
 li a {
