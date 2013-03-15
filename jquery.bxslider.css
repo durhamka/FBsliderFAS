@@ -18,6 +18,10 @@
 	padding: 0;
 	*zoom: 1;
 }
+	.bxslider iframe {
+		margin-left: 390px;
+		margin-top: 50px;
+	}
 
 /** THEME
 ===================================*/
@@ -65,7 +69,7 @@
 }
 
 .bx-wrapper .bx-next:hover {
-	background-position: -45px -43px;
+	background-position: -46px -43px;
 	opacity: 1;
 }
 
