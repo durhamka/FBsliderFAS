@@ -29,7 +29,8 @@ body {
 }	
 
 .links  {
-		margin-right: 64px;
+		float: right;
+		margin-right: 50px;
 		padding-top: 6px;
 		display: inline-block;
 		clear: both;
