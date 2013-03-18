@@ -7,6 +7,10 @@ body {
 	background: url(images/background.png) repeat;
 }
 
+.container {
+	width: 810px;
+}
+
 .header #logo {
 	padding-left: 65px;
 }
@@ -45,7 +49,6 @@ ul.links {
 		font-family: "droid sans",helvetica,sans-serif;
 		font-size: 14px;
 		letter-spacing: 0.6px;
-		color: rgba(167,157,157,0.18);
 		color: #a79d9d;
 		padding-left: 13px;
 		opacity: .9;
