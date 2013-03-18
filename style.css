@@ -8,7 +8,8 @@ body {
 }
 
 .container {
-	width: 810px;
+	width: 786px;
+	height: ;
 }
 
 .header #logo {
@@ -27,37 +28,39 @@ body {
 	padding: 0;
 }	
 
-.links li  {
+.links  {
+		margin-right: 64px;
 		padding-top: 6px;
-		float: right;
-		margin-right: 18px;
 		display: inline-block;
 		clear: both;
+		list-style: none;
 }
 
-ul.links {
-		list-style-type: none;
-		float: right;
+.links li {
 		text-align: right;	
 		padding-top: 0px;
+		margin-bottom: 10px;
 }	
-
- a, #email img, #share img {		
+.links li a {		
 		text-decoration: none;
 		border: none;
-		vertical-align: middle;
 		font-family: "droid sans",helvetica,sans-serif;
 		font-size: 14px;
 		letter-spacing: 0.6px;
-		color: #a79d9d;
-		padding-left: 13px;
-		opacity: .9;
+		color: #756e6e;
+		opacity: .7;
 }
 
-a:hover, #email img:hover, #share img:hover {
+
+.links li a:hover {
         color: #706666;
         color: rgba(112, 102, 102, 1);
-        opacity: 1.8;
+        opacity: 1;
+}
+
+.links li a img {
+	vertical-align: middle;
+	margin-left: 10px;
 }
 
 li a {
